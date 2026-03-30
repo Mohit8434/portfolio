@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohit Raj Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">Mohit Raj<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="home" class="section">
+            <div class="hero-bg" id="hero-img-container"></div>
+            <div class="hero-content reveal">
+                <h1>Hi, I'm <br> <span class="highlight">Mohit Raj</span></h1>
+                <p>Computer Science student and aspiring Data Scientist passionate about building web applications and
+                    machine learning solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#connect" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container reveal" style="text-align:center;">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p style="max-width: 760px; margin: 0 auto; color: var(--text-muted); font-size: 1.05rem;">
+                    I am a self-driven learner exploring AI, web development, and data science. I enjoy building
+                    full-stack
+                    projects, creating clean user experiences and writing readable code. Outside coding, I like learning
+                    new
+                    tools and contributing to open-source.
+                </p>
+                <div class="hero-buttons" style="justify-content:center; margin-top: 30px;">
+                    <a href="#resume" class="btn primary-btn">Download Resume</a>
+                    <a href="#connect" class="btn secondary-btn">Let’s Talk</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code skill-icon"
+                            style="font-size: 2.5rem; margin-bottom: 20px; color: var(--accent-secondary);"></i>
+                        <h3>Languages</h3>
+                        <p>C++, Java, C, Python</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-cubes skill-icon"
+                            style="font-size: 2.5rem; margin-bottom: 20px; color: var(--accent-primary);"></i>
+                        <h3>Frameworks</h3>
+                        <p>React.js, Flask, HTML, CSS</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database skill-icon"
+                            style="font-size: 2.5rem; margin-bottom: 20px; color: var(--accent-tertiary);"></i>
+                        <h3>Database</h3>
+                        <p>MySQL, MongoDB</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-wrench skill-icon"
+                            style="font-size: 2.5rem; margin-bottom: 20px; color: var(--accent-secondary);"></i>
+                        <h3>Tools</h3>
+                        <p>Git, GitHub, MS Excel</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <div class="project-img"
+                            style="background-image: url('Electric-Vechicle.jpg'); background-size: cover; background-position: center;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Electric Vehicle Data Analysis</h3>
+                            <p>Analyzed 50,000+ EV records using Python and created visual insights on adoption trends.
+                            </p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Excel</span>
+                            </div>
+                            <a href="https://github.com/Mohit8434/Analysis-and-Visualization-of-Electric-Vehicle-Population-Data-using-Python"
+                                class="view-btn">View Project →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img"
+                            style="background-image: url('f1-prediction.jpg'); background-size: cover; background-position: center;">
+                        </div>
+                        <div class="project-info">
+                            <h3>F1 Prediction System</h3>
+                            <p>Built a machine learning model to predict race results using Linear & Logistic Regression
+                                with Flask deployment.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>ML</span>
+                                <span>Flask</span>
+                            </div>
+                            <a href="https://github.com/Mohit8434/F1-Prediction-System" class="view-btn">View Project
+                                →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img"
+                            style="background-image: url('data-science.jpg'); background-size: cover; background-position: center;">
+                        </div>
+                        <div class="project-info">
+                            <h3>Car Sales Data Analysis</h3>
+                            <p>Worked on multiple datasets to perform data cleaning, visualization, and analysis using
+                                Python libraries.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                            </div>
+                            <a href="https://github.com/Mohit8434/Car-Sales-Data-Analysis-with-Python"
+                                class="view-btn">View Project →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">My <span>Certifications</span></h2>
+                <div class="certifications-grid">
+
+                    <div class="cert-card glass-panel">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Build Generative AI Apps</h3>
+                            <p class="issuer">Infosys Springboard</p>
+                            <span class="date">Aug 2025</span>
+                        </div>
+                        <a href="infosys-certificate.png" target="_blank" class="cert-link"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="cert-card glass-panel">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Software Development Processes and Methodologies</h3>
+                            <p class="issuer">Coursera</p>
+                            <span class="date">May 2024</span>
+                        </div>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/8GPPJD3XXWYF"
+                            target="_blank" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                    <div class="cert-card glass-panel">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h3>C++ Programming, OOPs & Data Structures</h3>
+                            <p class="issuer">Summer Training Program</p>
+                            <span class="date">Jun 2025 - Aug 2025</span>
+                        </div>
+                        <a href="53.png" target="_blank" class="cert-link"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">My <span>Education</span></h2>
+                <div class="education-grid">
+
+                    <div class="edu-card glass-panel">
+                        <div class="edu-icon-wrapper">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="edu-content">
+                            <h3>Bachelor of Technology in Computer Science</h3>
+                            <p class="institution">Lovely Professional University, Punjab</p>
+                            <span class="date">2023 - Present</span>
+                            <span class="result">CGPA: 6.7</span>
+                        </div>
+                    </div>
+
+                    <div class="edu-card glass-panel">
+                        <div class="edu-icon-wrapper">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="edu-content">
+                            <h3>High School (Class XII)</h3>
+                            <p class="institution">G.M.S.S High School, Madhubani, Bihar</p>
+                            <span class="date">2022 - 2023</span>
+                            <span class="result">Score: 64%</span>
+                        </div>
+                    </div>
+
+                    <div class="edu-card glass-panel">
+                        <div class="edu-icon-wrapper">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div class="edu-content">
+                            <h3>Senior Secondary (Class X)</h3>
+                            <p class="institution">National Institute of Open School, Madhubani, Bihar</p>
+                            <span class="date">2020 - 2021</span>
+                            <span class="result">Score: 76%</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">My <span>Resume</span></h2>
+                <div class="resume-wrapper glass-panel">
+                    <div class="resume-text">
+                        <h3>Download My Complete CV</h3>
+                        <p>Includes my education, projects, certifications, and technical skills.</p>
+                        <a href="mohitcv.pdf" download class="btn primary-btn inline-btn">
+                            Download PDF
+                        </a>
+                    </div>
+                    <div class="resume-preview">
+                        <div class="resume-document">
+                            <div class="doc-header"></div>
+                            <div class="doc-line"></div>
+                            <div class="doc-line half"></div>
+                            <div class="doc-line"></div>
+                            <div class="doc-line short"></div>
+                            <div class="doc-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Let's <span>Connect</span></h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>I'm open to internships and job opportunities. Feel free to reach out!</p>
+                        <ul class="social-links">
+                            <li><a href="mailto:mohitraj3110@gmail.com"><i class="fa-solid fa-envelope"></i>
+                                    mohitraj3110@gmail.com</a></li>
+                            <li><a href="tel:+918434560566"><i class="fa-solid fa-phone"></i> +91 8434560566</a></li>
+                            <li><a href="https://github.com/Mohit8434"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/mohit-raj8434/"><i
+                                        class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Designed & Built by Mohit Raj</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
